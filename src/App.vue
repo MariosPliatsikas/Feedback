@@ -1,19 +1,20 @@
+<!-- App.vue -->
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <!-- Your existing content goes here -->
+    <FeedbackForm />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FeedbackForm from './components/FeedbackForm.vue';
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    FeedbackForm,
+  },
+};
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
