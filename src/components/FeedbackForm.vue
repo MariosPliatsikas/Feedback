@@ -40,10 +40,10 @@ export default {
 /* Your component styles go here */
 
 /* Example styles: Feel free to customize as needed */
-h1 {
+h2 {
   color: #333;
   font-size: 24px;
   margin-bottom: 20px;
 }
-</style>
 
+</style>
